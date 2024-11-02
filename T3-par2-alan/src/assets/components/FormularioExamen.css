@@ -1,0 +1,115 @@
+.contenedorPrincipal {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f8ff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  position: absolute; 
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+
+.encabezado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logoEmpresa {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.nombreEmpresa {
+  font-size: 24px;
+  color: #000000; 
+}
+
+.tituloFormulario {
+  text-align: center;
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.subtituloFormulario {
+  text-align: center;
+  font-size: 16px;
+  color: #666666;
+  margin-bottom: 20px;
+}
+
+.seccionFormulario {
+  margin-bottom: 20px;
+}
+
+.tituloSeccion {
+  font-size: 18px;
+  color: #000000; 
+  margin-bottom: 10px;
+}
+
+.grupoEntradas {
+  display: flex;
+  gap: 20px; 
+}
+
+.campoGrupo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.etiquetaCampo {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #000000; 
+}
+
+.campoEntrada {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  outline: none;
+  background-color: #f9eabb;
+  color: #000000;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.contenedorTerminos {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+
+.botonEnviar {
+  width: 100%;
+  padding: 10px;
+  background-color: #22cede;
+  color: #ffffff; 
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.botonEnviar:hover {
+  background-color: #218838;
+}
+
+
+
